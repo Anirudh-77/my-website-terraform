@@ -1,3 +1,3 @@
 FROM httpd:alpine
 
-COPY /my-website/* /var/www/html/
+COPY ./* /var/www/html/

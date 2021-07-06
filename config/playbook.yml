@@ -7,7 +7,7 @@
         dest: ./my-website
   - name: copy docker file from server
     copy:
-        src: config/Dockerfile
+        src: /home/ec2-user/config/Dockerfile
         dest: .
   - name: Stop running container
     command: docker rm -f webapp

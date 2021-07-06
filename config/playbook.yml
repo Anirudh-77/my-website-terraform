@@ -3,7 +3,11 @@
   tasks:
   - name: copy files from server
     copy:
-        src: *
+        src: my-website/
+        dest: ./my-website
+  - name: copy docker file from server
+    copy:
+        src: config/Dockerfile
         dest: .
   - name: Stop running container
     command: docker rm -f webapp

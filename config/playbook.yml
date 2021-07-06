@@ -21,6 +21,6 @@
     command: docker build -t custom-image .
     
   - name: Create and run container
-    command: docker run -itd -p8080:8080 --name webapp custom-image
+    command: docker run -itd -p8080:80 --name webapp custom-image
     
  

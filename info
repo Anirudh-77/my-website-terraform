@@ -1,0 +1,5 @@
+The apspec.yml file is added for deployment through the aws management console using
+1. Codedeploy
+2. Code Pipeline
+3. Used application load balancer between 2 instances deployed in 2 different AZ's.
+Link to the website: http://my-website-1719863190.us-east-1.elb.amazonaws.com/

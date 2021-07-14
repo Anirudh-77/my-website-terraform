@@ -1,3 +1,2 @@
 FROM httpd:alpine
-
-COPY ./my-website/* /usr/local/apache2/htdocs/
+COPY ./my-website/website/* /usr/local/apache2/htdocs/

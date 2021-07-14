@@ -1,6 +1,5 @@
 ---
 - hosts: client
-  become: true
   tasks:
   - name: copy files from server
     copy:

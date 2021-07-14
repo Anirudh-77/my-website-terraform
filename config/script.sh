@@ -1,1 +1,0 @@
-ansible-playbook -i hosts my-website/config/playbook.yml

@@ -5,7 +5,7 @@
   - name: copy files from server
     copy:
         src: /home/ec2-user/my-website/website/
-        dest: .
+        dest: website/
   - name: copy docker file from server
     copy:
         src: /home/ec2-user/my-website/config/Dockerfile
